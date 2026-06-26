@@ -1,0 +1,8 @@
+.always-on-top {
+  position: fixed;   /* Fixes the element relative to the screen viewport */
+  top: 0;            /* Sticks it directly to the very top edge */
+  left: 0;           /* Aligns it to the left edge */
+  width: 100%;       /* Makes it stretch across the full width of the screen */
+  z-index: 9999;     /* Forces it to sit on top of all other page elements */
+  background-color: black;
+}
